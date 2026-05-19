@@ -1,10 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Pharmacy App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ABC Pharmacy — Medicine Tracker</title>
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
-    <h1>Pharmacy Management System</h1>
-    <p>Frontend served from wwwroot</p>
+
+<!-- ── Header ────────────────────────────────────────────────────────── -->
+<header>
+  <h1>💊 ABC Pharmacy — Medicine Tracker</h1>
+  <span id="clock"></span>
+</header>
+
+<!-- ── Navigation Tabs ───────────────────────────────────────────────── -->
+<nav>
+  <button class="active" onclick="showView('medicines')">Medicines</button>
+  <button onclick="showView('add')">Add Medicine</button>
+  <button onclick="showView('sales')">Sales Records</button>
+</nav>
+
+<main>
+
+  <!-- VIEW: Medicines Grid -->
+  <div class="view active" id="view-medicines">
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="🔍  Search by medicine name…" oninput="filterMedicines()" />
+      <button class="btn btn-primary" onclick="loadMedicines()">↻ Refresh</button>
+    </div>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot dot-red"></div> Expiring within 30 days</div>
+      <div class="legend-item"><div class="legend-dot dot-yellow"></div> Low stock (qty &lt; 10)</div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Medicine Name</th>
+            <th>Brand</th>
+            <th>Expiry Date</th>
+            <th>Qty in Stock</th>
+            <th>Price (₹)</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="medicines-tbody">
+          <tr><td colspan="7" class="empty">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- VIEW: Add Medicine Form -->
+  <div class="view" id="view-add">
+    <div class="card">
+      <h2>Add New Medicine</h2>
+      <div class="form-grid">
+        <div class="form-group full">
+          <label>Full Name *</label>
+          <input type="text" id="f-name" placeholder="e.g. Amoxicillin 500mg" required />
+        </div>
+        <div class="form-group">
+          <label>Brand *</label>
+          <input type="text" id="f-brand" placeholder="e.g. GlaxoSmithKline" required />
+        </div>
+        <div class="form-group">
+          <label>Expiry Date *</label>
+          <input type="date" id="f-expiry" required />
+        </div>
+        <div class="form-group">
+          <label>Quantity *</label>
+          <input type="number" id="f-qty" placeholder="0" min="0" required />
+        </div>
+        <div class="form-group">
+          <label>Price (₹) *</label>
+          <input type="number" id="f-price" placeholder="0.00" step="0.01" min="0" required />
+        </div>
+        <div class="form-group full">
+          <label>Notes</label>
+          <textarea id="f-notes" placeholder="Dosage instructions, warnings, storage info…"></textarea>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-primary" onclick="addMedicine()">Add Medicine</button>
+        <button class="btn-ghost" onclick="clearForm()">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIEW: Sales Records -->
+  <div class="view" id="view-sales">
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Total Sales</div>
+        <div class="stat-value" id="stat-total">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total Revenue</div>
+        <div class="stat-value" id="stat-revenue">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Units Sold</div>
+        <div class="stat-value" id="stat-units">—</div>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date &amp; Time</th>
+            <th>Medicine</th>
+            <th>Qty Sold</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="sales-tbody">
+          <tr><td colspan="5" class="empty">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<!-- Sale Modal -->
+<div class="modal-backdrop" id="sale-modal">
+  <div class="modal">
+    <h3>Record Sale</h3>
+    <div class="form-group">
+      <label>Medicine</label>
+      <input type="text" id="sale-medicine-name" disabled style="background:#f5f5f5" />
+    </div>
+    <div class="form-group">
+      <label>Available Stock</label>
+      <input type="text" id="sale-stock" disabled style="background:#f5f5f5" />
+    </div>
+    <div class="form-group">
+      <label>Quantity to Sell *</label>
+      <input type="number" id="sale-qty" min="1" placeholder="Enter quantity" />
+    </div>
+    <div class="modal-actions">
+      <button class="btn-ghost" onclick="closeSaleModal()">Cancel</button>
+      <button class="btn btn-success" onclick="confirmSale()">Confirm Sale</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast"></div>
+
+<!-- Scripts -->
+<script src="/js/app.js"></script>
+
 </body>
 </html>
