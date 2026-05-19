@@ -54,15 +54,6 @@
     "brand": "AstraZeneca"
   },
   {
-    "id": "636b37dc-0aa8-48c3-a57d-056ba8bc82b8",
-    "fullName": "Moisturex-Hydra",
-    "notes": "",
-    "expiryDate": "2027-02-26T00:00:00",
-    "quantity": 2,
-    "price": 429,
-    "brand": "Novel"
-  },
-  {
     "id": "fb0002cb-3796-4a31-8243-6055bedc3573",
     "fullName": "Moisturex-Hydra",
     "notes": "test",
@@ -70,5 +61,14 @@
     "quantity": 5,
     "price": 400,
     "brand": "Novel"
+  },
+  {
+    "id": "49ecc1a5-f3cd-44f4-8267-d2ad842651e0",
+    "fullName": "test",
+    "notes": "",
+    "expiryDate": "2029-10-27T00:00:00",
+    "quantity": 30,
+    "price": 100,
+    "brand": "test"
   }
 ]

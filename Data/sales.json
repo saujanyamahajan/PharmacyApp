@@ -52,5 +52,14 @@
     "unitPriceAtSale": 400,
     "totalAmount": 6000,
     "saleDate": "2026-05-19T13:21:26.760672Z"
+  },
+  {
+    "id": "b7c349ee-d86b-4566-b9af-0c8efa46f72f",
+    "medicineId": "49ecc1a5-f3cd-44f4-8267-d2ad842651e0",
+    "medicineName": "test",
+    "quantitySold": 20,
+    "unitPriceAtSale": 100,
+    "totalAmount": 2000,
+    "saleDate": "2026-05-19T16:00:12.371767Z"
   }
 ]

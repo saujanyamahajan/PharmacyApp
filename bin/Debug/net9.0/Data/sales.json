@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "medicineId": "22222222-2222-2222-2222-222222222222",
+    "medicineName": "Paracetamol 500mg",
+    "quantitySold": 10,
+    "unitPriceAtSale": 3.99,
+    "totalAmount": 39.90,
+    "saleDate": "2026-05-15T10:30:00Z"
+  },
+  {
+    "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "medicineId": "33333333-3333-3333-3333-333333333333",
+    "medicineName": "Ibuprofen 400mg",
+    "quantitySold": 5,
+    "unitPriceAtSale": 5.49,
+    "totalAmount": 27.45,
+    "saleDate": "2026-05-16T14:00:00Z"
+  },
+  {
+    "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "medicineId": "44444444-4444-4444-4444-444444444444",
+    "medicineName": "Metformin 850mg",
+    "quantitySold": 2,
+    "unitPriceAtSale": 7.20,
+    "totalAmount": 14.40,
+    "saleDate": "2026-05-17T09:15:00Z"
+  },
+  {
+    "id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "medicineId": "55555555-5555-5555-5555-555555555555",
+    "medicineName": "Atorvastatin 20mg",
+    "quantitySold": 3,
+    "unitPriceAtSale": 14.99,
+    "totalAmount": 44.97,
+    "saleDate": "2026-05-18T16:45:00Z"
+  },
+  {
+    "id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "medicineId": "11111111-1111-1111-1111-111111111111",
+    "medicineName": "Amoxicillin 500mg",
+    "quantitySold": 2,
+    "unitPriceAtSale": 12.50,
+    "totalAmount": 25.00,
+    "saleDate": "2026-05-19T11:00:00Z"
+  },
+  {
+    "id": "71501421-fdc7-46fa-9ff3-bcb87971c6c0",
+    "medicineId": "fb0002cb-3796-4a31-8243-6055bedc3573",
+    "medicineName": "Moisturex-Hydra",
+    "quantitySold": 15,
+    "unitPriceAtSale": 400,
+    "totalAmount": 6000,
+    "saleDate": "2026-05-19T13:21:26.760672Z"
+  }
+]

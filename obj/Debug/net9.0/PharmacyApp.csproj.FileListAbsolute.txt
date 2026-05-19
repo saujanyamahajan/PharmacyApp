@@ -37,6 +37,10 @@
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/PharmacyApp.genruntimeconfig.cache
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/ref/PharmacyApp.dll
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/PharmacyApp.sourcelink.json
-/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/fgg9sd2b6j-qgf8yi7cjg.gz
-/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/tioxd7nysv-9dg7ibmhz1.gz
-/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/p6prja1g79-qluslvexbi.gz
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/bin/Debug/net9.0/pharmacy-frontend/package-lock.json
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/bin/Debug/net9.0/pharmacy-frontend/package.json
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/tenwqklnyj-yvco0feqbs.gz
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/cg8v3t3kof-cdq5hy8l5f.gz
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/omsz1x81dg-180dmtdpho.gz
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/fgoyg7aphz-g3h7a9wx5y.gz
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/tioxd7nysv-mb1k1c9a3c.gz
