@@ -26,7 +26,6 @@
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/scopedcss/bundle/PharmacyApp.styles.css
-/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/tioxd7nysv-kud9vgrtcf.gz
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/staticwebassets.build.json
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/staticwebassets.development.json
@@ -37,3 +36,7 @@
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/PharmacyApp.pdb
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/PharmacyApp.genruntimeconfig.cache
 /Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/ref/PharmacyApp.dll
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/PharmacyApp.sourcelink.json
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/fgg9sd2b6j-qgf8yi7cjg.gz
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/tioxd7nysv-9dg7ibmhz1.gz
+/Users/saujanyamahajan/Documents/ProjectAssignmentPublicis/PharmacyApp/obj/Debug/net9.0/compressed/p6prja1g79-qluslvexbi.gz
